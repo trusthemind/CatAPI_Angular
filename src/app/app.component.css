@@ -1,0 +1,17 @@
+div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30%;
+  gap: 7.5px;
+}
+div > #cats {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
